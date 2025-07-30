@@ -1,4 +1,4 @@
-from SRC.tarefas import criar_tarefa
+from src.tarefas import criar_tarefa
 
 def test_criar_tarefa_com_nome_valido():
     resultado = criar_tarefa("Estudar algoritmos")
