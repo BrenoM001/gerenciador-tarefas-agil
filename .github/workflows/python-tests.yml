@@ -22,4 +22,4 @@ jobs:
 
     - name: Rodar testes
       run: |
-        PYTHONPATH=. pytest
+        PYTHONPATH=$(pwd) pytest
