@@ -1,34 +1,37 @@
-# Gerenciador de Tarefas Ágil
+# 🧩 Gerenciador de Tarefas Ágil
 
-Projeto acadêmico de Engenharia de Software, desenvolvido para simular a criação de um sistema ágil no GitHub, com foco em **gestão de tarefas**, **integração contínua** e **qualidade de código**.
-
-## 🧠 Objetivo do Projeto
-
-Criar um sistema básico de gerenciamento de tarefas com funcionalidades essenciais (ex.: CRUD), utilizando metodologias ágeis e ferramentas modernas para planejamento, controle de qualidade e simulação de mudanças.
+Projeto acadêmico da disciplina de Engenharia de Software, desenvolvido para simular a criação de um sistema ágil no GitHub. O objetivo é aplicar práticas modernas de desenvolvimento, planejamento, controle de qualidade e simulação de mudanças usando metodologias ágeis.
 
 ---
 
-## 📌 Escopo
+## 🧠 Objetivo do Projeto
 
-- Gerenciamento de tarefas
-- Planejamento com Kanban (GitHub Projects)
-- Testes automatizados com GitHub Actions
-- Controle de versão e commits organizados
-- Simulação de mudança de escopo no projeto
+Desenvolver um sistema simples de gerenciamento de tarefas, com funcionalidades básicas de CRUD, utilizando boas práticas de versionamento, testes automatizados e metodologias ágeis.
+
+---
+
+## 📌 Escopo do Projeto
+
+- CRUD de tarefas (Criar, Listar, Atualizar, Excluir)
+- Planejamento com Kanban (Projects do GitHub)
+- Testes automatizados com `pytest`
+- Pipeline de CI com GitHub Actions
+- Simulação de mudança no escopo
+- Controle de versão com commits descritivos
 
 ---
 
 ## 🚀 Metodologia Utilizada
 
-- **Metodologias Ágeis:** Kanban (GitHub Projects)
-- **Controle de Qualidade:** Testes unitários com `pytest`
+- **Metodologia Ágil:** Kanban
+- **Controle de Qualidade:** Testes unitários com Pytest
 - **CI/CD:** GitHub Actions
+- **Gestão de Projeto:** Projects (Kanban) no GitHub
 
 ---
 
-## 🛠️ Como executar o projeto
+## 🛠️ Como Executar o Projeto
 
 1. Clone o repositório:
 ```bash
 git clone https://github.com/BrenoM001/gerenciador-tarefas-agil.git
-
