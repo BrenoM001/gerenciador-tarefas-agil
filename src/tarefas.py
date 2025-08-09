@@ -20,7 +20,14 @@ def listar_tarefas():
 
 # Filtra tarefas por status
 def filtrar_tarefas_por_status(status):
-    return [tarefa for tarefa in tarefas if tarefa["status"] == status]
+    filtradas = [tarefa for tarefa in tarefas if tarefa["status"] == status]
+    if filtradas:
+        print(f"Tarefas com status '{status}':")
+        for t in filtradas:
+            print(f"- ID {t['id']}: {t['titulo']} ({t['status']})")
+    else:
+        print(f"Nenhuma tarefa encontrada com status '{status}'")
+    return filtradas
 
 # Atualiza uma tarefa pelo ID
 def atualizar_tarefa(id, novo_titulo=None, nova_descricao=None, novo_status=None):
